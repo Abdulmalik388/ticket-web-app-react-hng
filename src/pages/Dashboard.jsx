@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
-import * as ticketService from "../services/ticketService"; // fixed typo (ticketService.js)
+import * as ticketService from "../services/ticketservice"; // fixed typo (ticketService.js)
 
 function StatsCard({ title, value, color }) {
   return (
